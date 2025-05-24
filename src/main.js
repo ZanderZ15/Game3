@@ -14,17 +14,29 @@
 
 // game config
 let config = {
-    fps: { forceSetTimeOut: true, target: 30 },
+    fps: { forceSetTimeOut: true, target: 60 },
     parent: 'phaser-game',
     type: Phaser.CANVAS,
     render: {
         pixelArt: true  // prevent pixel art from getting blurred when scaled
     },
-    width: 500,
-    height: 690,
-    scene: [Start1, Start2, Start3, lvl1, lvl2, lvl3, End],
-    fps: { forceSetTimeOut: true, target: 30 }
+    physics: {
+        default: 'arcade',
+        arcade: {
+            debug: true,
+            gravity: {
+                x: 0,
+                y: 0
+            }
+        }
+    },
+    width: 1440,
+    height: 670,
+    scene: [Load, Level1_Outside],
+    
 }
-var lives = 3;
+var cursors;
+const SCALE = 2.0;
+var my = {sprite: {}, text: {}, vfx: {}};
 var score = 0;
 const game = new Phaser.Game(config);

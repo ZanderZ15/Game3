@@ -9,19 +9,48 @@
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
         "": {
-            "scaleInDock": 1,
+            "scaleInDock": 2,
             "scaleInEditor": 4
         },
         "#tileset1": {
             "scaleInDock": 1
         },
-        "Level1_Outside.json": {
-            "scale": 0.5,
-            "selectedLayer": 3,
+        "C:/Users/zande/OneDrive/Desktop/CMPM 120/Section Assignments/S7_PlatformImprovement/assets/platformer-level-1.tmj": {
+            "scale": 1.7986666666666666,
+            "selectedLayer": 0,
             "viewCenter": {
-                "x": 5633,
-                "y": 601
+                "x": 306.6160118606375,
+                "y": 224.88880652335067
             }
+        },
+        "C:/Users/zande/OneDrive/Desktop/CMPM 120/Section Assignments/S7_PlatformImprovement/assets/platformer-level-1.tmj#kenny_tilemap_packed": {
+            "scaleInDock": 1
+        },
+        "C:/Users/zande/OneDrive/Desktop/CMPM 120/Section Assignments/S7_PlatformImprovement/assets/platformer-level-1.tmx": {
+            "scale": 1.6141203703703704,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 477.9693101964721,
+                "y": 121.11860031550268
+            }
+        },
+        "C:/Users/zande/OneDrive/Desktop/CMPM 120/Section Assignments/S7_PlatformImprovement/assets/platformer-level-1.tmx#kenny_tilemap_packed": {
+            "scaleInDock": 1
+        },
+        "Level1_Outside.json": {
+            "scale": 0.75,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 1035.3333333333335,
+                "y": 617.9999999999999
+            }
+        },
+        "Level1_Outside.json#Backgrounds": {
+            "scaleInDock": 2,
+            "scaleInEditor": 4
+        },
+        "Level1_Outside.json#bg": {
+            "scaleInEditor": 4
         },
         "Level1_Outside.json#packed": {
             "scaleInDock": 1,
@@ -30,6 +59,20 @@
         "Level1_Outside.json#regular": {
             "scaleInDock": 1,
             "scaleInEditor": 4
+        },
+        "Level1_Outside.tmj": {
+            "scale": 0.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 6893,
+                "y": -121
+            }
+        },
+        "Level1_Outside.tmj#Backgrounds": {
+            "scaleInDock": 1
+        },
+        "Level1_Outside.tmj#packed": {
+            "scaleInDock": 1
         },
         "Packs/kenney_pixel-platformer/Tiled/tilemap-example-a.tmx": {
             "scale": 2.9977777777777774,
@@ -45,13 +88,18 @@
         "Packs/kenney_pixel-platformer/Tiled/tileset-tiles.tsx": {
             "scaleInDock": 1
         },
+        "packed.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 0.75
+        },
         "tiles1.tsx": {
             "scaleInDock": 1.5,
-            "scaleInEditor": 1
+            "scaleInEditor": 2
         }
     },
+    "frame.defaultDuration": 230,
     "last.exportedFilePath": "C:/Users/zande/OneDrive/Desktop/CMPM 120/Game3/assets",
-    "last.externalTilesetPath": "C:/Users/zande/OneDrive/Desktop/CMPM 120/Game3/assets/Packs/kenney_pixel-platformer/Tilemap",
+    "last.externalTilesetPath": "C:/Users/zande/OneDrive/Desktop/CMPM 120/Game3/assets",
     "last.imagePath": "C:/Users/zande/OneDrive/Desktop/CMPM 120/Game3/assets/Packs/kenney_pixel-platformer/Tilemap",
     "map.height": 50,
     "map.lastUsedExportFilter": "JSON map files (*.tmj *.json)",
@@ -63,9 +111,14 @@
         "Level1_Outside.json"
     ],
     "project": "game3.tiled-project",
+    "property.type": "bool",
     "recentFiles": [
         "Level1_Outside.json",
+        "packed.tsx",
         "tiles1.tsx",
+        "Level1_Outside.tmj",
+        "C:/Users/zande/OneDrive/Desktop/CMPM 120/Section Assignments/S7_PlatformImprovement/assets/platformer-level-1.tmx",
+        "C:/Users/zande/OneDrive/Desktop/CMPM 120/Section Assignments/S7_PlatformImprovement/assets/platformer-level-1.tmj",
         "Packs/kenney_pixel-platformer/Tiled/tilemap-example-a.tmx"
     ],
     "tileset.embedInMap": true,
@@ -73,6 +126,6 @@
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
         "height": 18,
-        "width": 18
+        "width": 14
     }
 }
