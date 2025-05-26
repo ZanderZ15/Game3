@@ -7,7 +7,7 @@ class Level1_Outside extends Phaser.Scene {
         this.ACCELERATION = 400;
         this.DRAG = 700;    // DRAG < ACCELERATION = icy slide
         this.physics.world.gravity.y = 1500;
-        this.JUMP_VELOCITY = -400;
+        this.JUMP_VELOCITY = -425;
         this.PARTICLE_VELOCITY = 50;
         this.SCALE = 1.8;
         this.maxvx = 300;
@@ -310,20 +310,19 @@ class Level1_Outside extends Phaser.Scene {
         }
         // player jump
         // note that we need body.blocked rather than body.touching b/c the former applies to tilemap tiles and the latter to the "ground"
-        if(!my.sprite.player.body.blocked.down) {
-            my.sprite.player.anims.play('jump');
-        }
-        if(Phaser.Input.Keyboard.JustDown(cursors.up)) {
-            if (my.sprite.player.body.blocked.down){
+        if(my.sprite.player.body.blocked.down) {
+            this.jumps = true;
+            if(Phaser.Input.Keyboard.JustDown(cursors.up)) {
                 my.sprite.player.body.setVelocityY(this.JUMP_VELOCITY);
                 this.jump(my.sprite.player.body);
-                this.jumps = true;
-            } else if (this.jumps == true) {
-                my.sprite.player.body.setVelocityY(this.JUMP_VELOCITY);
-                this.jump(my.sprite.player.body);
-                this.jumps = false;
             }
-            
+        } else {
+            my.sprite.player.anims.play('jump');
+            if(Phaser.Input.Keyboard.JustDown(cursors.up) && this.jumps == true) {
+                my.sprite.player.body.setVelocityY(this.JUMP_VELOCITY);
+                this.jumps = false;
+                this.jump(my.sprite.player.body);
+            }
         }
 
         if(Phaser.Input.Keyboard.JustDown(this.rKey)) {
