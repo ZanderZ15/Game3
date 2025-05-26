@@ -3,16 +3,27 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "Level1_Outside.json",
+    "activeFile": "C:/Users/zande/OneDrive/Desktop/CMPM 120/Section Assignments/S7 PlatformImprovement/assets/platformer-level-1.tmx",
     "expandedProjectPaths": [
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
         "": {
             "scaleInDock": 2,
-            "scaleInEditor": 4
+            "scaleInEditor": 3
         },
         "#tileset1": {
+            "scaleInDock": 1
+        },
+        "C:/Users/zande/OneDrive/Desktop/CMPM 120/Section Assignments/S7 PlatformImprovement/assets/platformer-level-1.tmx": {
+            "scale": 0.8268518518518518,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -0.6047032474804155,
+                "y": 311.42217245240766
+            }
+        },
+        "C:/Users/zande/OneDrive/Desktop/CMPM 120/Section Assignments/S7 PlatformImprovement/assets/platformer-level-1.tmx#kenny_tilemap_packed": {
             "scaleInDock": 1
         },
         "C:/Users/zande/OneDrive/Desktop/CMPM 120/Section Assignments/S7_PlatformImprovement/assets/platformer-level-1.tmj": {
@@ -41,8 +52,8 @@
             "scale": 0.75,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 1035.3333333333335,
-                "y": 617.9999999999999
+                "x": 755.3333333333333,
+                "y": 540.6666666666666
             }
         },
         "Level1_Outside.json#Backgrounds": {
@@ -108,11 +119,12 @@
     "map.tileWidth": 16,
     "map.width": 600,
     "openFiles": [
-        "Level1_Outside.json"
+        "C:/Users/zande/OneDrive/Desktop/CMPM 120/Section Assignments/S7 PlatformImprovement/assets/platformer-level-1.tmx"
     ],
     "project": "game3.tiled-project",
     "property.type": "bool",
     "recentFiles": [
+        "C:/Users/zande/OneDrive/Desktop/CMPM 120/Section Assignments/S7 PlatformImprovement/assets/platformer-level-1.tmx",
         "Level1_Outside.json",
         "packed.tsx",
         "tiles1.tsx",

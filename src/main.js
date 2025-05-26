@@ -30,7 +30,7 @@ let config = {
             }
         }
     },
-    width: 1440,
+    width: 1520,
     height: 670,
     scene: [Load, Level1_Outside],
     
